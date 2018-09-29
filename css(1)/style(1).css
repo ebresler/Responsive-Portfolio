@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777;
     background: url("../Images(1)/full-bloom.png");
+    margin: 0px;
   }
   
   * {
@@ -127,7 +128,7 @@ body {
   .main-section {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 70%;
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
@@ -217,6 +218,7 @@ body {
   }
 
   @media screen and (max-width: 640px) {
+
     header{
       position: static;
     }
@@ -224,12 +226,28 @@ body {
     #logo{
       width: 100%;
       margin-bottom: 10px;
+      margin-left: 0px;
     }
 
     nav{
       margin: 10px;
       margin-top: 15px;
+      margin-right: 0px;
+      margin-left: 0px;
       float: none;
+      text-align: center;
+    }
+
+    nav a:first-child {
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+
+    #masthead{
+      width: 100%;
+      margin-left: 0px;
+      position: relative;
+      margin-bottom: 0px;
     }
 
    /*Mess with nav a to center nav links*/
@@ -239,16 +257,35 @@ body {
      width: 100%;
    }
 
+    .main-section{
+      margin-top: 20px;
+      padding-top: 0px;
+      max-width: 90%;
+      margin-left: 5%;
+    }
+
+    #main-container{
+      padding-top: 0px;
+    }
+
+    .work{
+      width: 100%;
+    }
+
   }
 
-  @media screen and (max-width: 768px) {
-    body {
-      background-color: #333;
+  @media (min-width:641px) and (max-width:980px) {
+    .main-section{
+      max-width: 90%;
+      margin-left: 5%;
+     
     }
-  }    
 
-  @media screen and (max-width: 980px) {
-    body {
-      background-color: #333;
+    nav{
+      margin-right: 5%;
     }
-  }    
+
+    #logo{
+      margin-left: 5%;
+    }
+  }
