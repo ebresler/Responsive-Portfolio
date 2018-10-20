@@ -157,7 +157,7 @@ body {
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 30%;
     width: 100%;
     padding: 15px;
     margin-bottom: 0;
@@ -167,8 +167,7 @@ body {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-  }
-  
+  }  
   .auth-image {
     float: left;
     width: 200px;
